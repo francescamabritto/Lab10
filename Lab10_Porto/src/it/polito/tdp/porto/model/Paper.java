@@ -9,6 +9,10 @@ public class Paper {
 	private String type;
 	private String types;
 
+	
+	public Paper() {
+		
+	}
 	public Paper(int eprintid, String title, String issn, String publication, String type, String types) {
 		this.eprintid = eprintid;
 		this.title = title;
@@ -68,8 +72,8 @@ public class Paper {
 
 	@Override
 	public String toString() {
-		return "Paper [eprintid=" + eprintid + ", title=" + title + ", issn=" + issn + ", publication=" + publication
-				+ ", type=" + type + ", types=" + types + "]";
+		return "Pubblicazione: eprintid = " + eprintid + ", title = " + title + ", issn = " + issn + ", publication = " + publication
+				+ ", type = " + type + ", types = " + types;
 	}
 
 	@Override
